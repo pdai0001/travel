@@ -21,7 +21,9 @@ export default {
         pagination: '.swiper-pagination',
         loop: true,
         autoplay: 1500,
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction: false,
+        observeParents: true,
+        observer: true
       }
     }
   },
